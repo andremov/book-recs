@@ -1,0 +1,296 @@
+[
+    {
+        "title": "Anything LGBTQ+, so I'll take a...",
+        "options": [
+            {
+                "name": "Sci-fi novella",
+                "book": "This is How You Lose the Time War"
+            },
+            {
+                "name": "Non-fiction essay collection / memoir",
+                "book": "In the Dream House"
+            },
+            {
+                "name": "Historical YA",
+                "book": "Last Night at the Telegraph Club"
+            },
+            {
+                "name": "Fun Romance",
+                "book": ["Red White & Royal Blue", "One Last Stop"]
+            }
+        ]
+    },
+    {
+        "title": "The Hunger Games, and the most interesting part was...",
+        "options": [
+            {
+                "name": "The Games",
+                "book": "Ther Sunbearer Trials"
+            },
+            {
+                "name": "The love triangle",
+                "book": "The Inheritance Games"
+            },
+            {
+                "name": "The themes",
+                "book": "The Grace Year"
+            },
+            {
+                "name": "The careers",
+                "book": "All of Us Villains"
+            }
+        ]
+    },
+    {
+        "title": "Percy Jackson / Rick Riordan, and...",
+        "options": [
+            {
+                "name": "I want another unwilling hero with a prophecy and his less-impulsive crush",
+                "book": "Song of Achilles"
+            },
+            {
+                "name": "I liked learning the mythology",
+                "book": ["Mythos","Heroes","Troy (Stephen Fry)"]
+            },
+            {
+                "name": "I wanted to live in a camp in the woods and I still take 'what cabin are you' quizzes",
+                "book": "A Psalm for the Wild-Built"
+            },
+            {
+                "name": "I also liked The Hunger Games",
+                "book": "The Sunbearer Trials"
+            }
+        ]
+    },
+    {
+        "title": "Love stories, but also...",
+        "options": [
+            {
+                "name": "Fantasy",
+                "book": "Legends & Lattes"
+            },
+            {
+                "name": "Dystopian",
+                "book": "All That's Left in the World"
+            },
+            {
+                "name": "Sci-fi",
+                "book": "Winter's Orbit"
+            },
+            {
+                "name": "Historical Fiction",
+                "book": "The Seven Husbands of Evelyn Hugo"
+            }
+        ]
+    },
+    {
+        "title": "Coming-of-age, but make it...",
+        "options": [
+            {
+                "name": "Post-grad",
+                "book": "Honey Girl"
+            },
+            {
+                "name": "Adult",
+                "book": "Yerba Buena"
+            },
+            {
+                "name": "A sentient AI",
+                "book": "The Murderbot Diaries"
+            },
+            {
+                "name": "Cozy fantasy",
+                "book": "The Monk & Robot duology"
+            }
+        ]
+    },
+    {
+        "title": "John Green novels, and I want...",
+        "options": [
+            {
+                "name": "to try his fiction again",
+                "book": "Turtles All the Way Down"
+            },
+            {
+                "name": "to try his nonfiction",
+                "book": "The Anthropecene Reviewed"
+            },
+            {
+                "name": "Something that reminds me of Paper Towns",
+                "book": "I Kissed Shara Wheeler"
+            },
+            {
+                "name": "Something that reminds me of TFIOS",
+                "book": "Everything, Everything"
+            }
+        ]
+    },
+    {
+        "title": "Mythology, especially...",
+        "options": [
+            {
+                "name": "Greek mythology",
+                "book": "Circe"
+            },
+            {
+                "name": "Norse mythology",
+                "book": "The Witch's Heart"
+            },
+            {
+                "name": "Arthurian mythology",
+                "book": "Spear (Griffith)"
+            },
+            {
+                "name": "Chinese mythology",
+                "book": "Six Crimson Cranes"
+            }
+        ]
+    },
+    {
+        "title": "Poetry, but I want...",
+        "options": [
+            {
+                "name": "A story-in-verse",
+                "book": "Autobiography of Red"
+            },
+            {
+                "name": "Yearning / Raw emotion",
+                "book": "Crush (Siken)"
+            },
+            {
+                "name": "Something reflective",
+                "book": "Refusing Heaven"
+            },
+            {
+                "name": "A sampler of multiple collections",
+                "book": "Mary Oliver's Devotions selection"
+            }
+        ]
+    },
+    {
+        "title": "Mysteries, but I want...",
+        "options": [
+            {
+                "name": "A queer book",
+                "book": "Lavender House"
+            },
+            {
+                "name": "A time loop twist",
+                "book": "The 7 1/2 Deaths of Evelyn Hardcastle"
+            },
+            {
+                "name": "'And Then There Were None' Vibes",
+                "book": ["Daisy Darker", "One by One"]
+            },
+            {
+                "name": "Small-town dynamics",
+                "book": "The Appeal (J. Hallett)"
+            }
+        ]
+    },
+    {
+        "title": "Narnia, and...",
+        "options": [
+            {
+                "name": "I want something atmospheric",
+                "book": "The Starless Sea"
+            },
+            {
+                "name": "Mr. Tumnus was my fave",
+                "book": "Piranesi"
+            },
+            {
+                "name": "I thought they should've stayed in Narnia",
+                "book": "Wayward Children Series"
+            },
+            {
+                "name": "Coraline, too",
+                "book": "Gallant"
+            }
+        ]
+    },
+    {
+        "title": "Classics, especially...",
+        "options": [
+            {
+                "name": "Shakespeare",
+                "book": "Hamnet"
+            },
+            {
+                "name": "Dystopian",
+                "book": "Tender Is the Flesh"
+            },
+            {
+                "name": "Edgar Allan Poe",
+                "book": "What Moves the Dead"
+            },
+            {
+                "name": "Dracula",
+                "book": "A Dowry of Blood"
+            }
+        ]
+    },
+    {
+        "title": "Movies like...",
+        "options": [
+            {
+                "name": "13 Going on 30 / About Time",
+                "book": "This Time Tomorrow"
+            },
+            {
+                "name": "The Martian",
+                "book": "Project Hail Mary"
+            },
+            {
+                "name": "Love, Simon",
+                "book": "Felix Ever After"
+            },
+            {
+                "name": "You've Got Mail",
+                "book": "84, Charing Cross Road"
+            }
+        ]
+    },
+    {
+        "title": "Tropes like...",
+        "options": [
+            {
+                "name": "Friends-to-lovers",
+                "book": "Heartstopper"
+            },
+            {
+                "name": "Rivals-to-lovers",
+                "book": "Icebreaker (Graziadei)"
+            },
+            {
+                "name": "Arranged marriage",
+                "book": ["A Strange & Stubborn Endurance", "Winter's Orbit"]
+            },
+            {
+                "name": "Forced proximity",
+                "book": "The Darkness Outside Us"
+            }
+        ]
+    },
+    {
+        "title": "Fairytales, but I'm looking for...",
+        "options": [
+            {
+                "name": "Peter Pan",
+                "book": ["Lost in the Never Woods", "Lost Boy"]
+            },
+            {
+                "name": "Rumpelstiltskin",
+                "book": ["Spinning Silver", "Small Favors"]
+            },
+            {
+                "name": "Cinderella",
+                "book": ["Geekerella", "Cinderella Is Dead"]
+            },
+            {
+                "name": "A general fairytale-esque vibe and a quest",
+                "book": ["The Bone Houses", "The Book Eaters"]
+            }
+        ]
+    }
+]
