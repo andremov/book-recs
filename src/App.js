@@ -1,33 +1,56 @@
 import React from "react";
-import { Grid } from "./Components/Grid";
+import { PromptGrid } from "./Components/PromptGrid";
+import { ResultCard } from "./Components/ResultCard";
+import { OptionGrid } from "./Components/OptionGrid";
+import data from "./data.json";
 
 export const App = () => {
-  const [step, setStep] = React.useState(1);
   const [prompt, setPrompt] = React.useState(undefined);
-  const [category, setCategory] = React.useState(undefined);
+  const [option, setOption] = React.useState(undefined);
 
   const handleSelectPrompt = (value) => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-    setPrompt(value);
-    setStep(2);
+    if (prompt && value === prompt) {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+      setPrompt(undefined);
+      setOption(undefined);
+    } else if (!prompt) {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+      setPrompt(value);
+    }
+  };
+
+  const handleSelectOption = (value) => {
+    if (option && value === option) {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+      setOption(undefined);
+    } else if (!option) {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+      setOption(value);
+    }
   };
 
   return (
     <div className={"container"}>
-      {step === 1 && (
+      {!prompt && (
         <header>
           <h1 className={"title"}>Need a book recommendation?</h1>
           <h3 className={"subtitle"}>Yes! I used to like...</h3>
         </header>
       )}
-      {step === 2 && (
-        <header>
-          <h3 className={"subtitle"}>
-            Pick the option that applies most to you
-          </h3>
-        </header>
+      {prompt && <header></header>}
+      <PromptGrid
+        data={data}
+        onClick={handleSelectPrompt}
+        selectedPrompt={prompt}
+      />
+      {prompt && (
+        <OptionGrid
+          data={data[prompt - 1].options}
+          onClick={handleSelectOption}
+          selectedOption={option}
+        />
       )}
-      <Grid onClick={handleSelectPrompt} />
+      {option && <ResultCard {...data[prompt - 1].options[option - 1]} />}
     </div>
   );
 };

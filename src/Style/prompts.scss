@@ -1,0 +1,62 @@
+.prompt-grid {
+  max-width: 800px;
+  width: 100%;
+  margin-top: 3rem;
+  padding-top: 1rem;
+  height: calc(var(--data-count) * 120px);
+  transition: 0.5s;
+  position: relative;
+
+  &.summarized {
+    height: 120px;
+  }
+}
+
+.prompt-card {
+  position: absolute;
+  top: calc(var(--card-key) * 120px);
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  user-select: none;
+  border-radius: 10px;
+  transition: color 0.2s ease, border-color 0.2s ease, top 0.5s,
+    opacity 0.2s, transform 0.2s;
+  width: 100%;
+
+  &.clickable {
+    cursor: pointer;
+
+    &:hover,
+    &:focus,
+    &:active {
+      transform: translateX(10px);
+      color: var(--rainbow-5);
+      border-color: var(--rainbow-5);
+    }
+
+  }
+
+  h2 {
+    margin: 0 0 1rem 0;
+    font-size: 1.5em;
+  }
+
+  p {
+    margin: 0;
+    font-size: 1.25em;
+    line-height: 1.5;
+  }
+
+  &.fade-out {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  &.to-top,
+  &.fade-out {
+    top: 0;
+  }
+}
